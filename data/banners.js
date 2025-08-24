@@ -30,12 +30,12 @@ const banners = [
     expiry: '2100-01-01T23:59:59'
   },
   {
-        img: 'https://aksharhanumandham.in/ads/shubham.png',
+        img: 'https://aksharmty.github.io/aksharhanumandham/ads/shubham.png',
         link: 'https://wa.me/918750685516',
     expiry: '2100-01-01T23:59:59'
   },
   {
-      img: 'https://aksharmty.github.io/aksharhanumandham//ads/adquash.png',
+      img: 'https://aksharmty.github.io/aksharhanumandham/ads/adquash.png',
       link: 'https://adquash.com',
     expiry: '2100-01-01T23:59:59'
   },
