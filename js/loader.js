@@ -9,7 +9,7 @@ function loadHTML(id, file, callback) {
 
 loadHTML("header", "header.html");
 loadHTML("menu", "menu.html");
-loadHTML("sidebar", "sidebar1.html", () => {
+loadHTML("sidebar", "sidebar.html", () => {
     const script = document.createElement('script');
     script.src = 'data/banners.js?v=' + new Date().getTime();
     document.body.appendChild(script);
