@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4305348743992957"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <meta id="metaTitle" name="title" content="">
+    <meta id="metaDescription" name="description" content="">
+    <meta id="metakeywords" name="keywords" content="">
+    <meta name="author" content="akshar hanuman dham">
+    <meta property="og:image" content="logo.png">
+    <link href="0.css" rel="stylesheet" type="text/css">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QS90E57647"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-QS90E57647');
+    </script>
+</head>
+
+<body>
+    <div class="col-md-12" style="width:100%;">
+        <div id="menu"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="left-panel">
+                <div class="col-md-12" style="width:100%;">
+                    <center>
+                        <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px;max-height:100px;"
+                            data-ad-client="ca-pub-4305348743992957" data-ad-slot="1924539816"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </center>
+                </div>
+
+                <div class="col-md-12">
+                    <h1 style="text-align:center;">Astrology Services</h1>
+                    <p style="text-align:center;">Find the best astrologer for all your needs</p>
+                    <div id="content">
+                        <h1>Loading...</h1>
+                    </div>
+
+                    <br>
+                    <h3>Contact Us Today</h3>
+                    Akshar Hanuman Dham<br>
+                    Address: J-34/209, Gali No.4,<br>
+                    West Sagarpur, New Delhi-110046, India<br>
+
+                    <div class="col-md-12">
+                        <p>For more information or to ask any questions, feel free to reach out:</p>
+                        <div class="col-md-3"><a href="tel:+919213816442" class="btn btn-blue">Make a Call</a><br><br></div>
+                        <div class="col-md-3"><a target="_blank" href="https://api.whatsapp.com/send?phone=919213816442"
+                                class="btn btn-green">Whatsapp</a><br><br></div>
+                        <div class="col-md-3"><a target="_blank" href="https://maps.app.goo.gl/xhkm2y2AZeTr9Lah9"
+                                class="btn btn-red">Google Map</a><br><br></div>
+                        <div class="col-md-3"><a href="contact.html" class="btn btn-brown">Contact Details</a><br><br></div>
+                    </div><br>
+                </div>
+            </div>
+
+            <div class="right-panel0">
+                <div id="sidebar"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer" id="footer"></div>
+
+    <button class="top-button" onclick="scrollToTop()">Back to Top</button>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Scroll to top function
+            function scrollToTop() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+            window.scrollToTop = scrollToTop;
+
+            // Show or hide the "Back to Top" button based on scroll position
+            window.onscroll = function () {
+                const topButton = document.querySelector('.top-button');
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    topButton.style.display = "block";
+                } else {
+                    topButton.style.display = "none";
+                }
+            };
+
+            // Function to load external HTML
+           function loadHTML(elementId, file, callback) {
+    fetch(file)
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById(elementId).innerHTML = data;
+            if (typeof callback === "function") {
+                callback();
+            }
+        })
+        .catch(error => {
+            console.error('Error loading ' + file + ':', error);
+        });
+}
+
+            // Load external sections
+//            loadHTML('header', 'https://aksharhanumandham.in/header.html');
+            loadHTML('menu', 'menu.html');
+            loadHTML("sidebar", "https://aksharhanumandham.in/sidebar.html", () => {
+    const script = document.createElement('script');
+    script.src = 'https://aksharhanumandham.in/data/banners.js?v=' + new Date().getTime();
+    document.body.appendChild(script);
+});
+            loadHTML('footer', 'footer.html');
+
+            // Extract loc from query string
+            const urlParams = new URLSearchParams(window.location.search);
+            const loc = urlParams.get('loc');
+
+            if (loc && loc.trim() !== "") {
+                const cleanedId = loc.replace(/-/g, ' ').replace(/[^a-zA-Z0-9 ]/g, '').trim();
+
+                document.title = `Astrologer - ${cleanedId}`;
+                document.getElementById('metaTitle').setAttribute('content', `Astrologer in ${cleanedId}`);
+                document.getElementById('metaDescription').setAttribute('content',
+                    `Explore the best astrologer services in ${cleanedId}. Get accurate astrology predictions and guidance for your future.`);
+                document.getElementById('metakeywords').setAttribute('content',
+                    `Astrologer in ${cleanedId}, Phone Astrology Consultation, Horoscope Reading Online, Astrology Services in ${cleanedId}, Online Astrologer Consultation, Vedic Astrologer in ${cleanedId}, Astrology Consultation Over the Phone, Expert Astrologer Services, Personalized Astrology Advice, Astrological Predictions in ${cleanedId}, Astrology for Career, Love and Relationship Astrology in ${cleanedId}, Astrology for Financial Guidance, Trusted Astrologer in ${cleanedId}, Spiritual Guidance via Astrology`);
+
+                document.getElementById('content').innerHTML = `
+                    <h2>Astrologer in ${cleanedId} – Horoscope Consultations on Phone</h2>
+                    <p>Discover insights into your life with the best astrologers in ${cleanedId}. Get guidance and predictions about your future, career, relationships, and more. We offer astrology services tailored to your specific needs.</p>
+                    <h2>Why Choose Our Astrology Services?</h2>
+                    <p>We provide a wide range of astrology services that cater to different aspects of your life. Whether you're looking for guidance in your career, love life, or health, our astrologers in ${cleanedId} offer deep insights based on the stars and planetary alignments.</p>
+                    <h3>Career Readings</h3>
+                    <p>Get detailed astrology-based career predictions to guide your professional journey.</p>
+                    <h3>Love & Relationship</h3>
+                    <p>Discover the most compatible matches and get relationship advice.</p>
+                    <h3>Health Insights</h3>
+                    <p>Astrology can offer helpful insights into your health and well-being.</p>
+                `;
+            } else {
+                document.title = 'Astrologer - Services';
+                document.getElementById('metaTitle').setAttribute('content', 'Astrologer Services');
+                document.getElementById('metaDescription').setAttribute('content',
+                    'Find the best astrologer services for all your needs.');
+                document.getElementById('metakeywords').setAttribute('content',
+                    'Astrologer, Phone Astrology Consultation, Horoscope Reading Online, Astrology Services, Online Astrologer Consultation, Vedic Astrologer, Astrology Consultation Over the Phone, Expert Astrologer Services, Personalized Astrology Advice, Astrological Predictions Delhi, Astrology for Career, Love and Relationship Astrology, Astrology for Financial Guidance, Trusted Astrologer, Spiritual Guidance via Astrology');
+
+                document.getElementById('content').innerHTML = `
+                    <p>We provide top astrology services to help guide you in your life’s journey. Whether it's love, career, or health, our expert astrologers are here to help.</p>
+                    <h2>Why Choose Our Astrology Services?</h2>
+                    <p>Our astrologers offer a variety of services to suit every need. From career advice to relationship compatibility, we use ancient wisdom and modern astrology to guide you through life.</p>
+                    <h3>Career Readings</h3>
+                    <p>Get insights into your career path based on your birth chart.</p>
+                    <h3>Love & Relationship</h3>
+                    <p>Understand your love life better and strengthen relationships.</p>
+                    <h3>Health Insights</h3>
+                    <p>Learn about your health strengths and vulnerabilities with astrology.</p>
+                `;
+            }
+        });
+    </script>
+</body>
+</html>
