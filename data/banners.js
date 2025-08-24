@@ -35,17 +35,12 @@ const banners = [
     expiry: '2100-01-01T23:59:59'
   },
   {
-      img: 'https://aksharhanumandham.in/ads/adquash.png',
+      img: 'https://aksharmty.github.io/aksharhanumandham//ads/adquash.png',
       link: 'https://adquash.com',
     expiry: '2100-01-01T23:59:59'
   },
   {
-      img: 'https://aksharhanumandham.in/ads/5-minute.png',
-      link: 'https://aksharhanumandham.in',
-    expiry: '2100-01-01T23:59:59'
-  },
-  {
-      img: 'https://aksharhanumandham.in/ads/advertise.png',
+      img: 'https://aksharmty.github.io/aksharhanumandham//ads/advertise.png',
       link: 'https://aksharhanumandham.in/advertise.html',
     expiry: '2100-01-01T12:00:00'
   }
